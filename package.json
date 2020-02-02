@@ -2,10 +2,16 @@
   "name": "learn-express",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "forever start ./app.js",
+    "stop": "forever stop ./app.js"
+  },
   "repository": "https://github.com/y-endo/learn-express.git",
   "author": "YukiEndo",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "forever": "^2.0.0"
   }
 }
